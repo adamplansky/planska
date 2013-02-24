@@ -1,0 +1,28 @@
+﻿/* tiskova verze */
+
+#obal
+{
+    position:absolute;
+    left:-20%;
+}
+ #navigace, #layout, #paticka, #menu
+{
+    display:none !important;
+}
+#obsah
+{
+    font-size:15px !important;
+}
+body
+{
+    background:none;
+}
+ span, .blue, h1, h2
+ {
+    color:#000000;
+ }
+ h1
+ {
+    border-left:none;
+    font-size:20px;
+ }

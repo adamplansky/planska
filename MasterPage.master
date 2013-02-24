@@ -1,0 +1,44 @@
+<%@ Master Language="C#" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+                                                                                                <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="description" content="Jitka Plánská - daòová evidence, úèetnictví, mzdy">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <meta name="keywords" content="úèetní poradenství, mzdy, úèetnictví, daòová evidence, Plánská Jitka, planska," >
+    <link href="tisk.css" rel="stylesheet" type="text/css" media="print" />
+    <script src="javascript/default.js" ></script>
+    <asp:contentplaceholder id="title" runat="server"></asp:contentplaceholder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="obal">
+            <div id="layout">
+                <div id="dane">
+                    "Nic není jisté, jen smrt a danì..."
+                </div>
+                <div id="menu1">
+                    <asp:ContentPlaceHolder ID="menu" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="obalobsahu">
+                <div id="obsah">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="navigace">
+                <a href="Aktualne.aspx" class="aktualne">aktuálnì</a> 
+                <a href="2012.aspx" class="devet">2012</a>               
+                <a href="2011.aspx" class="osm">2011</a>
+                <a href="Archiv.aspx" class="sedm">archiv</a>
+                <a href="Relax.aspx" class="relax">relax</a>
+            </div>
+            <div id="paticka">
+                <!--vytvoøeno v roce 2008-->
+                All rights reserved (c) 2008 - 2012
+            </div>
+        </div>
+    </form>
+</body>
+</html>

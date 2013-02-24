@@ -1,0 +1,56 @@
+<%@ Master Language="C#" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+                                                                                                <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="description" content="Jitka Plánská - daòová evidence, úèetnictví, mzdy">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <meta name="keywords" content="úèetní poradenství, mzdy, úèetnictví, daòová evidence, Plánská Jitka, planska," >
+    <link href="tisk.css" rel="stylesheet" type="text/css" media="print" />
+    <script src="javascript/default.js" ></script>
+    <asp:contentplaceholder id="title" runat="server"></asp:contentplaceholder>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32208628-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="obal">
+            <div id="layout">
+                <div id="dane">
+                    "Nic není jisté, jen smrt a danì..."
+                </div>
+                <div id="menu1">
+                    <asp:ContentPlaceHolder ID="menu" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="obalobsahu">
+                <div id="obsah">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="navigace">
+                <a href="Aktualne.aspx" class="aktualne">aktuálnì</a> 
+                <a href="2009.aspx" class="devet">2009</a>               
+                <a href="2008.aspx" class="osm">2008</a>
+                <a href="2007.aspx" class="sedm">2007</a>
+                <a href="Relax.aspx" class="relax">relax</a>
+            </div>
+            <div id="paticka">
+                created by <a href="http://imp4t.webpuls.net/">imp4t</a> © 2008
+            </div>
+        </div>
+    </form>
+</body>
+</html>

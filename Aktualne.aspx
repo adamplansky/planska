@@ -126,7 +126,12 @@ pøiznání k DPH apod.</p>
     </div>
      <h2><a href="#" class="click" onclick="return showhideProduct('IDAreaShow_25');"> Jak správnì zaplatit daò finanènímu úøadu v roce 2013</a></h2>   
     <div class="clsShow" id='IDAreaShow_25'>
-     <p><a href="http://cds.mfcr.cz/cps/rde/xchg/cds/xsl/ceska_danova_sprava_16801.html?year=0">http://cds.mfcr.cz/cps/rde/xchg/cds/xsl/ceska_danova_sprava_16801.html?year=0</a></p>
+     <p><a href="http://cds.mfcr.cz/cps/rde/xchg/cds/xsl/ceska_danova_sprava_16801.html?year=0">Krajské FÚ</a></p>
+     <p><a href="http://www.jezeksw.cz/aktuality/archiv/2013/01/07/transformace-financnich-uradu/">Èíselná struktura FÚ</a></p>
+     <p><a href="files/Seznam_FU-UzP_20130101-aktualni.xls">Adresy a DS FÚ</a></p>
+
+
+
      <p>Ke dni 1. lednu 2013 nabude úèinnosti ji platnı zákon è. 456/2011 Sb., o Finanèní správì Èeské republiky, ve znìní pozdìjších pøedpisù, kterı nahrazuje dosavadní zákon è. 531/1990 Sb., o územních finanèních orgánech, ve znìní pozdìjších pøedpisù.</p>
      <p>Ze souèasnıch 199 finanèních úøadù bude vıbìrem daní novì od 1. ledna 2013 povìøeno pouze <strong>14 finanèních úøadù </strong>umístìnıch podle správního (krajského) uspoøádání Èeské republiky a <strong>specializovanı finanèní úøad </strong>se sídlem v Praze, kterı vznikl ji k 1. 1. 2012.</p>
      <p>Pro bezproblémové placení daní je nutné znát odpovídající èíslo bankovního úètu finanèního úøadu. Úplnı tvar èísla bankovního úètu pro úhradu urèité danì místnì pøíslušnému finanènímu  úøadu se sestaví z<strong> pøedèíslí bankovního úètu, z matrikové èásti a z kódu banky</strong>. Pøedèíslí bankovního úètu a matriková èást jsou od sebe oddìleny pomlèkou, za matrikovou èástí bez mezery následuje <strong>lomítko a smìrovı kód Èeské národní banky </strong>(ÈNB), u ní mají finanèní úøady vedeny úèty (kód 0710).</p>
